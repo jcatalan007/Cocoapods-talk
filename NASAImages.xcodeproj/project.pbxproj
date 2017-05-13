@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ADE69F214FA5D8989517E70 /* Pods_NASAImages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82825C80496B895B572B27CB /* Pods_NASAImages.framework */; };
 		BE27DCC81E887DA4003036F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27DCC71E887DA4003036F8 /* AppDelegate.swift */; };
-		BE27DCCA1E887DA4003036F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27DCC91E887DA4003036F8 /* ViewController.swift */; };
 		BE27DCCD1E887DA4003036F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE27DCCB1E887DA4003036F8 /* Main.storyboard */; };
 		BE27DCCF1E887DA4003036F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE27DCCE1E887DA4003036F8 /* Assets.xcassets */; };
 		BE27DCD21E887DA4003036F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE27DCD01E887DA4003036F8 /* LaunchScreen.storyboard */; };
+		BE27DCDB1E887ECA003036F8 /* NASAImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27DCD91E887ECA003036F8 /* NASAImageTableViewCell.swift */; };
+		BE27DCDC1E887ECA003036F8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27DCDA1E887ECA003036F8 /* TableViewController.swift */; };
+		BE27DCDE1E888237003036F8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27DCDD1E888237003036F8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82825C80496B895B572B27CB /* Pods_NASAImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NASAImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		993AFA069C7E64967C18517A /* Pods-NASAImages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASAImages.release.xcconfig"; path = "Pods/Target Support Files/Pods-NASAImages/Pods-NASAImages.release.xcconfig"; sourceTree = "<group>"; };
+		B94C508C71F6E109C98E95D4 /* Pods-NASAImages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASAImages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NASAImages/Pods-NASAImages.debug.xcconfig"; sourceTree = "<group>"; };
 		BE27DCC41E887DA4003036F8 /* NASAImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE27DCC71E887DA4003036F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE27DCC91E887DA4003036F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE27DCCC1E887DA4003036F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE27DCCE1E887DA4003036F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE27DCD11E887DA4003036F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE27DCD31E887DA4003036F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE27DCD91E887ECA003036F8 /* NASAImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASAImageTableViewCell.swift; sourceTree = "<group>"; };
+		BE27DCDA1E887ECA003036F8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BE27DCDD1E888237003036F8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADE69F214FA5D8989517E70 /* Pods_NASAImages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37C2EA862927B7141CDCC062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82825C80496B895B572B27CB /* Pods_NASAImages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE27DCBB1E887DA4003036F8 = {
 			isa = PBXGroup;
 			children = (
 				BE27DCC61E887DA4003036F8 /* NASAImages */,
 				BE27DCC51E887DA4003036F8 /* Products */,
+				EB21EFF36FF4CED69074062A /* Pods */,
+				37C2EA862927B7141CDCC062 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				BE27DCC71E887DA4003036F8 /* AppDelegate.swift */,
-				BE27DCC91E887DA4003036F8 /* ViewController.swift */,
+				BE27DCD91E887ECA003036F8 /* NASAImageTableViewCell.swift */,
+				BE27DCDA1E887ECA003036F8 /* TableViewController.swift */,
+				BE27DCDD1E888237003036F8 /* DetailViewController.swift */,
 				BE27DCCB1E887DA4003036F8 /* Main.storyboard */,
 				BE27DCCE1E887DA4003036F8 /* Assets.xcassets */,
 				BE27DCD01E887DA4003036F8 /* LaunchScreen.storyboard */,
 				BE27DCD31E887DA4003036F8 /* Info.plist */,
 			);
 			path = NASAImages;
+			sourceTree = "<group>";
+		};
+		EB21EFF36FF4CED69074062A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B94C508C71F6E109C98E95D4 /* Pods-NASAImages.debug.xcconfig */,
+				993AFA069C7E64967C18517A /* Pods-NASAImages.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE27DCD61E887DA4003036F8 /* Build configuration list for PBXNativeTarget "NASAImages" */;
 			buildPhases = (
+				2BF32329739D451140709C86 /* [CP] Check Pods Manifest.lock */,
 				BE27DCC01E887DA4003036F8 /* Sources */,
 				BE27DCC11E887DA4003036F8 /* Frameworks */,
 				BE27DCC21E887DA4003036F8 /* Resources */,
+				00254DA71E13B8C4AB37B65E /* [CP] Embed Pods Frameworks */,
+				2E75E6B9676924980C6723D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +165,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00254DA71E13B8C4AB37B65E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NASAImages/Pods-NASAImages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF32329739D451140709C86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E75E6B9676924980C6723D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NASAImages/Pods-NASAImages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE27DCC01E887DA4003036F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE27DCCA1E887DA4003036F8 /* ViewController.swift in Sources */,
+				BE27DCDB1E887ECA003036F8 /* NASAImageTableViewCell.swift in Sources */,
 				BE27DCC81E887DA4003036F8 /* AppDelegate.swift in Sources */,
+				BE27DCDC1E887ECA003036F8 /* TableViewController.swift in Sources */,
+				BE27DCDE1E888237003036F8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +342,9 @@
 		};
 		BE27DCD71E887DA4003036F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94C508C71F6E109C98E95D4 /* Pods-NASAImages.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2L7J98569Z;
 				INFOPLIST_FILE = NASAImages/Info.plist;
@@ -272,7 +357,9 @@
 		};
 		BE27DCD81E887DA4003036F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993AFA069C7E64967C18517A /* Pods-NASAImages.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2L7J98569Z;
 				INFOPLIST_FILE = NASAImages/Info.plist;
@@ -302,6 +389,7 @@
 				BE27DCD81E887DA4003036F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
